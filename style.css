@@ -1,0 +1,59 @@
+html, body {
+  margin: 0 0 0 0;
+  padding: 0px;
+  background-color: white;
+}
+
+#header {
+  height: 100px;
+  background-color: black;
+  font: italic bold .9em Arial, sans-serif;
+  color: white;
+}
+
+
+#main{
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+ul {
+list-style-type: none;
+margin-left: -30px;
+}
+
+.red {
+  font: bold .8em Arial;
+  color: red;
+  border: 2px solid red;
+  padding: 15px;
+  background-color: #ffcccc;
+  text-align: center;
+  margin: 5px 0px 5px 0px;
+}
+
+
+.green {
+  font: bold .8em Arial;
+  color: green;
+  border: 2px solid green;
+  padding: 15px;
+  background-color: lightgrey;
+  text-align: center;
+  margin: 5px 0px 5px 0px;
+
+}
+
+
+.red:hover, .green:hover {
+  font: bold .8em Arial;
+  color: white;
+  border: 2px solid black;
+  border-left: 27px solid black;
+  border-right: 27px solid black;
+  padding: 15px;
+  background-color: grey;
+  text-align: center;
+  margin: 5px 0px 5px 0px;
+}
